@@ -1,4 +1,4 @@
-let a;
+/*let a;
 a = 48 + 7 + 4 - 10;
 console.log(a);
 
@@ -250,3 +250,78 @@ if (dolphins == koalas && dolphins >= 100) {
     `Both the Dolphins and Koalas did not meet the minimum threshold of 100 points and therefore lost! Both teams only scored an average of ${dolphins} and ${koalas} respectively.`
   );
 }
+
+
+const day = "sunday";
+
+switch (
+  day //day === 'monday'and then ...
+) {
+  case "monday":
+    console.log("Plan course structure");
+    console.log("Go to Gym");
+    break;
+  case "tuesday":
+    console.log(`back day`);
+    break;
+  case "wednesday":
+  case "thursday":
+    console.log(`write a bunch of code`);
+    break;
+  case "friday":
+    console.log(`record youtube videos`);
+    break;
+  case "saturday":
+  case "sunday":
+    console.log(`enjoy the weekend :D`);
+    break;
+  default:
+    console.log(`not a valid day!`);
+}
+
+
+const input = "TUESDAY";
+console.log(input);
+const day = input.toLowerCase();
+console.log(day);
+
+if (day) {
+  if (day === "monday") {
+    console.log(`it ${day} time for chest day.`);
+  } else if (day === "tuesday" || day === "wednesday") {
+    console.log(`it's ${day} time for back and legs.`);
+  } else if (day === "thursday") {
+    console.log(`it's a ${day}, i guess do nothinglmao`);
+  } else if (day === "friday") {
+    console.log(`it's ${day} time for shoulders`);
+  } else if (day === "saturday" || day === "sunday") {
+    console.log(`it's ${day} time for a rest bithces`);
+  } else console.log(`${day} is not a valid date`);
+}
+
+const age = 23;
+const drink = age >= 18
+  ? 'water at is wet'
+  : 'water at is not wet';
+
+  console.log(drink);
+
+  console.log(`i'd like to drink ${age >= 18 ? 'wine' : 'water'} today`);
+
+const population = 131
+
+console.log(`Portugal's population is ${population >= 33 ? 'above' : 'below'} average with a number of ${population} million`)
+
+
+const bill = 300;
+
+const tip = bill >= 50 && bill <= 300 ? (bill * 15) / 100 : (bill * 20) / 100;
+
+const value = tip + bill;
+
+console.log(tip);
+console.log(value);
+
+console.log(`“The bill was ${bill}, the tip was ${tip}, and the total value 
+${value}`);
+*/
